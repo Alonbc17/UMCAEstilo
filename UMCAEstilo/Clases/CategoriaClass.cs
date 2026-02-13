@@ -7,5 +7,7 @@ namespace UMCAEstilo.Clases
 {
     public class CategoriaClass
     {
+
+        string prueba;
     }
 }
