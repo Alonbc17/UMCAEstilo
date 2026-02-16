@@ -1,0 +1,2 @@
+Select * 
+from Categorias;

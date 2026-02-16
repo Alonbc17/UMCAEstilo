@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="BaseDatos\SQL_BD.sql" />
     <Content Include="Estilos\CategoriaStyle.css" />
     <Content Include="Global.asax" />
     <Content Include="Vistas\CategoriaForm.aspx" />
