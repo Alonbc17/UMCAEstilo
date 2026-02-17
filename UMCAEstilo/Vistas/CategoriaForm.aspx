@@ -2,28 +2,33 @@
 
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="es">
 <head runat="server">
+    <meta charset ="utf-8" />
     <title>Mantenimiento de Categoría de Ropa</title>
-
-   
+    <link rel="stylesheet" type="text/css" href="../Estilos/CategoriaStyle.css" />
 </head>
 <body>
     <form id="form1" runat="server">
-        <div class="contenedor">
+        <div class="container">
 
-            <h1>Mantenimiento de Categoría de Ropa</h1>
+            <h1 id="main-tittle">Mantenimiento de Categoría de Ropa</h1>
 
-            <div class="campo">
+            <div>
                 <asp:Label ID="lblNombreCategoria" runat="server" Text="Nombre Categoria:"></asp:Label>
-                <asp:TextBox ID="txtNombreCategoria" runat="server"></asp:TextBox>
+                <br />
+                <asp:TextBox ID="txtNombre" runat="server"></asp:TextBox>
             </div>
 
-            <div class="campo">
+            <div>
                 <asp:Label ID="lblDescripcion" runat="server" Text="Descripción:"></asp:Label>
+                <br />
                 <asp:TextBox ID="txtDescripcion" runat="server"></asp:TextBox>
             </div>
+            <div> 
+                <asp:Button ID="btnAgregar" runat="server" Text="Agregar Categoria" CssClass="btn-add" OnClick="btnAgregar_Click" />
 
+            </div>
         </div>
     </form>
 </body>
